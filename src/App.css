@@ -1,0 +1,111 @@
+
+img{
+  height: 700px;
+  width: 350px;
+  object-fit:cover;
+ }
+ .ticket-book{
+   display:flex;
+   justify-content: center;
+ }
+ ._block{
+   display :flex;
+   justify-content: center;
+   align-items: center;
+   
+   height:100vh;
+   background-color:rgb(135, 73, 73)
+ }
+ .seats-named{
+  display :flex;
+  justify-content: center;
+ }
+ .seats{
+   margin :4px;
+   float:left;
+   width: 25px;
+   height: 25px;
+   border:1px solid black;
+   text-align: center;
+ }
+ .booking{
+   background-color: green;
+   margin :4px;
+   float:left;
+   width: 25px;
+   height: 25px;
+   border:1px solid black;
+   text-align: center;
+ }
+ .blocked{
+  background-color: red;
+  margin :4px;
+  float:left;
+  width: 25px;
+  height: 25px;
+  border:1px solid black;
+  text-align: center;
+ }
+ .heading-name{
+  font-size: 50px;
+  color:black;
+  padding: 5px 10px;
+  background-color: rgb(189, 236, 236);
+  border: 1px;
+  border-radius: 50px;
+}
+.fa-4x{
+  margin-right: 25px;
+  padding-top:7px ;
+}
+
+.container{
+  background-color: white;
+  margin-top: 60px;
+  border: 1px;
+  border-radius: 50px;
+  height:400px;
+
+  
+  }
+  .heading{
+    display: flex;
+   justify-content: center;
+    padding-top: 10px;
+  }
+  .form-details{
+    margin-top: 20px;
+    display: flex;
+   
+    flex-direction: column;
+    gap: 10px;
+    
+   
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+
+  }
+  .movie{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    flex-direction: column;
+    gap:13px
+
+  }
+  .tickets{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    padding-top:90px;
+    background-color:rgb(86, 141, 86)
+  }
+  .row{
+    background-color:rgb(86, 141, 86)
+  }
+  .document{
+    background-color:rgb(86, 141, 86)
+  }

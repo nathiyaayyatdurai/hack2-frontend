@@ -1,0 +1,1 @@
+export var api = "https://diyaadurai.herokuapp.com/"
